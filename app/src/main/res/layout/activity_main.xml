@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bridgelabz.facebookwhatsupsharing.MainActivity">
+
+ <Button
+     android:id="@+id/fblogin"
+    android:text="Share on fb"
+     android:layout_margin="5dp"
+     android:textStyle="italic"
+     android:background="#5772d1"
+     android:textAllCaps="false"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/whatsup"
+        android:text="share on whatsup"
+        android:textStyle="italic"
+        android:background="#5772d1"
+        android:textAllCaps="false"
+        android:layout_margin="5dp"
+
+        android:layout_below="@+id/fblogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/email"
+        android:text="share on Email"
+        android:textStyle="italic"
+        android:background="#5772d1"
+        android:textAllCaps="false"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/whatsup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+
+        android:id="@+id/linkedin"
+        android:text="share on Twitter"
+        android:textStyle="italic"
+        android:background="#5772d1"
+        android:textAllCaps="false"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/twitter"
+        android:text="share on linkedin"
+        android:textStyle="italic"
+        android:background="#5772d1"
+        android:textAllCaps="false"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/linkedin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/showpackges"
+        android:text="show packages"
+        android:textStyle="italic"
+        android:background="#5772d1"
+        android:textAllCaps="false"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>
